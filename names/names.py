@@ -20,3 +20,9 @@ end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
 print (f"runtime: {end_time - start_time} seconds")
 
+'''
+Know we can use a binary search tree for this but can't seem to implement the solution on time. I've found a way to do it using counter thats
+faster than the 6 seconds above but we can't use that :(. Still need to work on the binary search tree solution. 
+
+
+'''
